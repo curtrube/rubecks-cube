@@ -1,0 +1,23 @@
+@import "./normalize.css";
+
+/* Navigation */
+
+.nav {
+    background: #6a5acd;
+}
+
+.nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav > ul > li {
+    padding: 10px;
+    text-align: right;
+}
+
+.nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
