@@ -14,20 +14,48 @@ a {
   text-decoration: none;
 }
 
-/* Navigation */
-.nav {
-  background: #6a5acd;
+button {
+  background: none;
+  border: none;
+  color: inherit;
 }
 
-.nav > ul {
-  margin: 0;
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  top: 5rem;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
-.nav > ul > li {
-  padding: 10px;
-  text-align: right;
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
 }
 
-.nav > ul > li > a {
-  color: #fff;
+.nav-item {
+  margin: 2.5rem 0;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #101010;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
 }
